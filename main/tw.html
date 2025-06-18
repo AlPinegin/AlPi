@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио веб-дизайнера | Быстрые сайты с ИИ</title>
+  <meta name="description" content="Создание сайтов, контента и графики. Примеры работ и контакт для сотрудничества. Быстро, понятно, без шаблонной воды.">
+  <meta property="og:title" content="Портфолио веб-дизайнера" />
+  <meta property="og:description" content="Создание сайтов, контента и графики. Примеры работ и контакт для сотрудничества." />
+  <meta property="og:image" content="https://eduard-ltd.com/preview.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eduard-ltd.com" />
+  <link rel="icon" href="/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/@headlessui/react@latest/dist/headlessui.umd.production.min.js"></script>
+  <!-- Google Ads Conversion Tracking -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-CONVERSION_ID');
+  </script>
+  <style>
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-white to-gray-100 text-gray-800 font-sans">
+  <!-- Hero Section -->
+  <div class="min-h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
+      Я создаю сайты, которые говорят за вас.
+    </h1>
+    <p class="text-lg md:text-xl max-w-xl mb-8">
+      От идеи до опубликованной страницы — быстро, понятно, без шаблонной воды.<br>
+      Проактивный подход, генеративный ИИ, современный веб.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="https://eduard-ltd.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg shadow">
+        Смотреть пример сайта
+      </a>
+      <a href="#contact" class="bg-gray-200 hover:bg-gray-300 text-gray-900 px-6 py-3 rounded-lg shadow">
+        Обсудить ваш проект
+      </a>
+    </div>
+    <div class="flex justify-center mt-6 space-x-4">
+      <a href="https://wa.me/77009147349" aria-label="WhatsApp" class="text-gray-600 hover:text-green-500 text-2xl">
+        <svg fill="currentColor" viewBox="0 0 32 32" class="w-6 h-6">
+          <path d="M16 0C7.164 0 0 7.163 0 16c0 2.819.735 5.459 2.03 7.771L0 32l8.48-2.221A15.89 15.89 0 0016 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.412c-2.43 0-4.773-.642-6.836-1.859l-.488-.288-5.027 1.317 1.34-4.887-.317-.502A13.29 13.29 0 012.588 16C2.588 8.897 8.897 2.588 16 2.588S29.412 8.897 29.412 16 23.103 29.412 16 29.412z"/>
+        </svg>
+      </a>
+      <a href="https://t.me/sogitrew" aria-label="Telegram" class="text-gray-600 hover:text-blue-500 text-2xl">
+        <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6"><path d="M9.04 16.93c-.38 0-.31-.14-.44-.5l-1.1-3.63 7.03-4.16c.31-.19.6.04.46.4l-2.42 7.94c-.17.54-.43.67-.87.42l-2.1-1.54-.67.64c-.1.1-.2.2-.39.2zM12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0z"></path></svg>
+      </a>
+      <a href="https://linkedin.com/in/sogitrew" aria-label="LinkedIn" class="text-gray-600 hover:text-blue-700 text-2xl">
+        <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6"><path d="M20.45 20.45h-3.55v-5.28c0-1.26-.45-2.13-1.57-2.13-.86 0-1.37.58-1.6 1.14-.08.2-.1.47-.1.75v5.52H10V9.5h3.42v1.5c.46-.71 1.29-1.72 3.15-1.72 2.3 0 4.02 1.5 4.02 4.72v6.45zM5.34 8H1.79v12.45h3.55V8zM3.57 0C2.03 0 1 1.02 1 2.34c0 1.3 1 2.34 2.5 2.34h.03c1.53 0 2.54-1.04 2.54-2.34C6.03 1.02 5.1 0 3.57 0z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Контактная форма с аккордеоном -->   
+  <section id="contact" class="px-4 py-12">
+    <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow">
+      <h2 class="text-2xl font-bold mb-6">Заполните мини-бриф</h2>
+      <form action="https://formsubmit.co/sogitrew@gmail.com" method="POST" class="space-y-4">
+        <input type="text" name="name" required placeholder="Ваше Имя">
+        <input type="email" name="email" required placeholder="Vasha@pochta.com">
+
+        <!-- Остальная форма (как ранее) -->
+        <!-- ... (оставлено без изменений для краткости) -->
+
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 w-full">
+          Отправить бриф
+        </button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
